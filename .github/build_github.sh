@@ -1,3 +1,4 @@
+
 # copy lc
 wget https://github.com/LiveContainer/dylibify/releases/download/1.0/dylibify
 chmod +x dylibify
@@ -41,7 +42,7 @@ mv ./tmp/SideStoreSupport.framework Payload/LiveContainer.app/Frameworks
 
 # download SideStore
 cd tmp
-wget https://github.com/Nguyenhuyhoan/SideStore/releases/download/nightly/SideStore.ipa
+wget https://github.com/Nguyenhuyhoan/Ki/releases/download/nightly/SideStore.ipa
 unzip SideStore.ipa
 cd ..
 
